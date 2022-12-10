@@ -2,3 +2,10 @@ from secondqueues import Queue
 
 fifo = Queue("1st", "2nd", "3rd")
 print(len(fifo))
+
+
+# dequeueing elements because  of iter method
+for element in fifo:
+  print(element)
+
+print(len(fifo)) # output: 0
