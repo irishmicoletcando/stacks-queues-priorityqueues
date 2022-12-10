@@ -36,6 +36,9 @@ class Product:
     priority: int
     label: str = field(compare=False)
 
+    def __str__(self):
+        return self.label
+
 def main(args):
   buffer = QUEUE_TYPES[args.queue]()
   producers = [
