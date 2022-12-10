@@ -111,6 +111,20 @@ class View:
             while True:
                 live.update(self.render())
 
+    def render(self):
+        match self.buffer:
+            case PriorityQueue():
+                title = "Priority Queue"
+                products = map(str, reversed(list(self.buffer.queue)))
+            case LifoQueue():
+                title = "Stack"
+                products = list(self.buffer.queue)
+            case Queue():
+                title = "Queue"
+                products = reversed(list(self.buffer.queue))
+            case _:
+                title = products = ""
+
 def main(args):
   buffer = QUEUE_TYPES[args.queue]()
   products = PRIORITIZED_PRODUCTS if args.queue == "heap" else PRODUCTS
