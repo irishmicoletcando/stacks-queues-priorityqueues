@@ -30,6 +30,11 @@ PRODUCTS = (
     ":yo-yo:",
 )
 
+# queue.PriorityQueue
+@dataclass(order=True)
+class Product:
+    priority: int
+    label: str = field(compare=False)
 
 def main(args):
   buffer = QUEUE_TYPES[args.queue]()
@@ -108,9 +113,6 @@ class Consumer(Worker):
             self.simulate_work()
             self.buffer.task_done()
             self.simulate_idle()
-
-# queue.PriorityQueue
-
 
 if __name__ == "__main__":
     try:
