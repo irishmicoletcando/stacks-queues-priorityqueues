@@ -1,5 +1,6 @@
 from collections import deque
 from heapq import heappop, heappush
+from dataclasses import dataclass
 
 # Building a Queue Data Type
 class Iterable:
@@ -35,3 +36,5 @@ class PriorityQueue(Iterable):
 
     def dequeue(self):
         return heappop(self._elements)[1]
+
+# Handling Corner Cases in Your Priority Queue
