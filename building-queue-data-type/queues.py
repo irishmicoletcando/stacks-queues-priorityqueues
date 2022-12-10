@@ -1,5 +1,4 @@
 from collections import deque
-from heapq import heappush
 
 # Building a Queue Data Type
 
