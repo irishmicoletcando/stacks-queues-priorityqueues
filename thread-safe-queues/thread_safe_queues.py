@@ -1,5 +1,7 @@
 import argparse
 import threading
+from random import randint
+from time import sleep
 from queue import LifoQueue, PriorityQueue, Queue
 
 QUEUE_TYPES = {
