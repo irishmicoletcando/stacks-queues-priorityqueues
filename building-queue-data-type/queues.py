@@ -21,4 +21,6 @@ class Queue(Iterable):
       return self._elements.popleft()
 
 # Building a Stack Data Type
-
+class Stack(Queue):
+    def dequeue(self):
+        return self._elements.pop()
