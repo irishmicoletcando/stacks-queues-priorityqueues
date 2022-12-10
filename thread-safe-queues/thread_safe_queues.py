@@ -39,6 +39,16 @@ def parse_args():
   parser.add_argument("-cs", "--consumer-speed", type=int, default=1)
   return parser.parse_args()
 
+class Worker(threading.Thread):
+    def __init__(self, speed, buffer):
+        super().__init__(daemon=True)
+        self.speed = speed
+        self.buffer = buffer
+        self.product = None
+        self.working = False
+        self.progress = 0
+
+
 
 if __name__ == "__main__":
     try:
