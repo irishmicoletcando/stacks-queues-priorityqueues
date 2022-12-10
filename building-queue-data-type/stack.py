@@ -10,3 +10,6 @@ lifo.append("1st")
 lifo.append("2nd")
 lifo.append("3rd")
 
+print(lifo.pop()) # 3rd
+print(lifo.pop()) # 2nd
+print(lifo.pop()) # 1st
