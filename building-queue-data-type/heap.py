@@ -1,4 +1,4 @@
-from queues import heappush
+from heapq import heappush, heappop
 
 fruits = []
 
