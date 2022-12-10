@@ -1,6 +1,6 @@
 import argparse
 import threading
-from random import randint
+from random import randint, choice
 from time import sleep
 from queue import LifoQueue, PriorityQueue, Queue
 
@@ -69,6 +69,9 @@ class Worker(threading.Thread):
         for _ in range(100):
             sleep(delay / 100)
             self.progress += 1
+
+# queue.Queue
+
 
 if __name__ == "__main__":
     try:
