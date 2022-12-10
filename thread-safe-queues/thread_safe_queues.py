@@ -3,6 +3,8 @@ import threading
 from random import randint, choice
 from time import sleep
 from queue import LifoQueue, PriorityQueue, Queue
+from dataclasses import dataclass, field
+from enum import IntEnum
 
 QUEUE_TYPES = {
   "fifo": Queue,
@@ -106,6 +108,9 @@ class Consumer(Worker):
             self.simulate_work()
             self.buffer.task_done()
             self.simulate_idle()
+
+# queue.PriorityQueue
+
 
 if __name__ == "__main__":
     try:
