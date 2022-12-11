@@ -1,5 +1,6 @@
 import networkx as nx
 from typing import NamedTuple
+from queues import MutableMinHeap, Queue, Stack
 
 class City(NamedTuple):
     name: str
