@@ -1,10 +1,5 @@
-import networkx as nx
-graph = nx.nx_agraph.read_dot("roadmap.dot")
-graph.nodes["london"]
-
-{'country': 'England',
- 'latitude': '51.507222',
- 'longitude': '-0.1275',
- 'pos': '80,21!',
- 'xlabel': 'City of London',
- 'year': 0}
+graph "Cities in the United Kingdom" {
+  graph [layout = fdp; bgcolor = white;];
+  node [shape = point; color = gray15; height = 0.75; fontsize = 100;];
+  edge [color = gray15; penwidth = 2.5; fontsize = 60;];
+}
