@@ -2,4 +2,14 @@ graph "Cities in the United Kingdom" {
   graph [layout = fdp; bgcolor = white;];
   node [shape = point; color = gray15; height = 0.75; fontsize = 100;];
   edge [color = gray15; penwidth = 2.5; fontsize = 60;];
+  
+  // north ireland info
+  subgraph northern_ireland {
+    node [country = "Northern Ireland";];
+    armagh [year = 1994;latitude = 54.3499;longitude = -6.6546;xlabel = "Armagh";pos = "7,74!";];
+    belfast [year = 1888;latitude = 54.596389;longitude = -5.93;xlabel = "Belfast";pos = "15,79!";];
+    derry [year = 1604;latitude = 54.9975;longitude = -7.32;xlabel = "Derry";pos = "0,86!";];
+    lisburn [year = 2002;latitude = 54.512;longitude = -6.031;xlabel = "Lisburn";pos = "14,77!";];
+    newry [year = 2002;latitude = 54.176;longitude = -6.349;xlabel = "Newry";pos = "10,71!";];
+  }
 }
