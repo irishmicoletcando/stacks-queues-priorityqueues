@@ -12,4 +12,15 @@ graph "Cities in the United Kingdom" {
     lisburn [year = 2002;latitude = 54.512;longitude = -6.031;xlabel = "Lisburn";pos = "14,77!";];
     newry [year = 2002;latitude = 54.176;longitude = -6.349;xlabel = "Newry";pos = "10,71!";];
   }
+  
+  // wales info
+  subgraph wales {
+    node [country = "Wales";];
+    bangor [year = 0;latitude = 53.228;longitude = -4.128;xlabel = "Bangor";pos = "35,53!";];
+    cardiff [year = 1905;latitude = 51.481667;longitude = -3.179167;xlabel = "Cardiff";pos = "46,21!";];
+    newport [year = 2002;latitude = 51.583333;longitude = -3;xlabel = "Newport";pos = "48,23!";];
+    st_asaph [year = 2012;latitude = 53.258;longitude = -3.442;xlabel = "St Asaph";pos = "43,53!";];
+    st_davids [year = 1994;latitude = 51.882;longitude = -5.269;xlabel = "St Davids";pos = "22,28!";];
+    swansea [year = 1969;latitude = 51.616667;longitude = -3.95;xlabel = "Swansea";pos = "37,23!";];
+  }
 }
