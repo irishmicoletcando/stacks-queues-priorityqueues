@@ -49,3 +49,4 @@ def breadth_first_search(graph, source, predicate, order_by=None):
 def shortest_path(graph, source, destination, order_by=None):
     queue = Queue(source)
     visited = {source}
+    previous = {}
