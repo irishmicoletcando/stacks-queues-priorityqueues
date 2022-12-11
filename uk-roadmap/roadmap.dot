@@ -23,4 +23,16 @@ graph "Cities in the United Kingdom" {
     st_davids [year = 1994;latitude = 51.882;longitude = -5.269;xlabel = "St Davids";pos = "22,28!";];
     swansea [year = 1969;latitude = 51.616667;longitude = -3.95;xlabel = "Swansea";pos = "37,23!";];
   }
+  
+  // scotland info
+  subgraph scotland {
+    node [country = "Scotland";];
+    aberdeen [year = 1891;latitude = 57.15;longitude = -2.11;xlabel = "Aberdeen";pos = "57,129!";];
+    dundee [year = 1889;latitude = 56.462;longitude = -2.9707;xlabel = "Dundee";pos = "48,115!";];
+    edinburgh [year = 1329;latitude = 55.953333;longitude = -3.189167;xlabel = "Edinburgh";pos = "45,105!";];
+    glasgow [year = 1492;latitude = 55.861111;longitude = -4.25;xlabel = "Glasgow";pos = "34,103!";];
+    inverness [year = 2001;latitude = 57.4778;longitude = -4.2247;xlabel = "Inverness";pos = "34,136!";];
+    perth [year = 2012;latitude = 56.395833;longitude = -3.433333;xlabel = "Perth";pos = "43,114!";];
+    stirling [year = 2002;latitude = 56.1166;longitude = -3.9369;xlabel = "Stirling";pos = "37,108!";];
+  }
 }
