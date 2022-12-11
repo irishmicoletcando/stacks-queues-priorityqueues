@@ -35,4 +35,61 @@ graph "Cities in the United Kingdom" {
     perth [year = 2012;latitude = 56.395833;longitude = -3.433333;xlabel = "Perth";pos = "43,114!";];
     stirling [year = 2002;latitude = 56.1166;longitude = -3.9369;xlabel = "Stirling";pos = "37,108!";];
   }
+  
+  // england info
+  subgraph england {
+    node [country = "England";];
+    bath [year = 1090;latitude = 51.38;longitude = -2.36;xlabel = "Bath";pos = "55,19!";];
+    birmingham [year = 1889;latitude = 52.48;longitude = -1.9025;xlabel = "Birmingham";pos = "60,39!";];
+    bradford [year = 1897;latitude = 53.792;longitude = -1.754;xlabel = "Bradford";pos = "61,63!";];
+    brighton [year = 2001;latitude = 50.827778;longitude = -0.152778;xlabel = "Brighton & Hove";pos = "79,9!";];
+    bristol [year = 1542;latitude = 51.45;longitude = -2.583333;xlabel = "Bristol";pos = "52,20!";];
+    cambridge [year = 1951;latitude = 52.205278;longitude = 0.119167;xlabel = "Cambridge";pos = "82,34!";];
+    canterbury [year = 0;latitude = 51.28;longitude = 1.08;xlabel = "Canterbury";pos = "93,17!";];
+    carlisle [year = 1133;latitude = 54.890833;longitude = -2.943889;xlabel = "Carlisle";pos = "48,84!";];
+    chelmsford [year = 2012;latitude = 51.735278;longitude = 0.479167;xlabel = "Chelmsford";pos = "86,26!";];
+    chester [year = 1541;latitude = 53.19;longitude = -2.89;xlabel = "Chester";pos = "49,52!";];
+    chichester [year = 1075;latitude = 50.8365;longitude = -0.7792;xlabel = "Chichester";pos = "72,10!";];
+    coventry [year = 1102;latitude = 52.408056;longitude = -1.510556;xlabel = "Coventry";pos = "64,38!";];
+    derby [year = 1977;latitude = 52.916667;longitude = -1.483333;xlabel = "Derby";pos = "64,47!";];
+    durham [year = 995;latitude = 54.7761;longitude = -1.5733;xlabel = "Durham";pos = "63,82!";];
+    ely [year = 1109;latitude = 52.398056;longitude = 0.262222;xlabel = "Ely";pos = "84,37!";];
+    exeter [year = 0;latitude = 50.725556;longitude = -3.526944;xlabel = "Exeter";pos = "42,8!";];
+    gloucester [year = 1541;latitude = 51.864444;longitude = -2.244444;xlabel = "Gloucester";pos = "56,28!";];
+    hereford [year = 0;latitude = 52.056;longitude = -2.716;xlabel = "Hereford";pos = "51,31!";];
+    kingston [year = 1897;latitude = 53.744444;longitude = -0.3325;xlabel = "Kingston upon Hull";pos = "77,62!";];
+    lancaster [year = 1937;latitude = 54.047;longitude = -2.801;xlabel = "Lancaster";pos = "50,68!";];
+    leeds [year = 1893;latitude = 53.800268;longitude = -1.549721;xlabel = "Leeds";pos = "64,63!";];
+    leicester [year = 1919;latitude = 52.634444;longitude = -1.131944;xlabel = "Leicester";pos = "68,42!";];
+    lichfield [year = 0;latitude = 52.682;longitude = -1.829;xlabel = "Lichfield";pos = "61,43!";];
+    lincoln [year = 1072;latitude = 53.228333;longitude = -0.538889;xlabel = "Lincoln";pos = "75,53!";];
+    liverpool [year = 1880;latitude = 53.4075;longitude = -2.991944;xlabel = "Liverpool";pos = "48,56!";];
+    london [year = 0;latitude = 51.507222;longitude = -0.1275;xlabel = "City of London";pos = "80,21!";];
+    manchester [year = 1853;latitude = 53.479444;longitude = -2.245278;xlabel = "Manchester";pos = "56,57!";];
+    newcastle [year = 1882;latitude = 54.98;longitude = -1.61;xlabel = "Newcastle upon Tyne";pos = "63,86!";];
+    norwich [year = 1094;latitude = 52.63;longitude = 1.297;xlabel = "Norwich";pos = "95,42!";];
+    nottingham [year = 1897;latitude = 52.953333;longitude = -1.15;xlabel = "Nottingham";pos = "68,48!";];
+    oxford [year = 1542;latitude = 51.751944;longitude = -1.257778;xlabel = "Oxford";pos = "67,26!";];
+    peterborough [year = 1541;latitude = 52.5725;longitude = -0.243056;xlabel = "Peterborough";pos = "78,41!";];
+    plymouth [year = 1928;latitude = 50.371389;longitude = -4.142222;xlabel = "Plymouth";pos = "35,1!";];
+    portsmouth [year = 1926;latitude = 50.805833;longitude = -1.087222;xlabel = "Portsmouth";pos = "69,9!";];
+    preston [year = 2002;latitude = 53.759;longitude = -2.699;xlabel = "Preston";pos = "51,63!";];
+    ripon [year = 1865;latitude = 54.138;longitude = -1.524;xlabel = "Ripon";pos = "64,70!";];
+    salford [year = 1926;latitude = 53.509722;longitude = -2.334444;xlabel = "Salford";pos = "55,58!";];
+    salisbury [year = 1227;latitude = 51.07;longitude = -1.79;xlabel = "Salisbury";pos = "61,14!";];
+    sheffield [year = 1893;latitude = 53.380368;longitude = -1.469701;xlabel = "Sheffield";pos = "65,56!";];
+    southampton [year = 1964;latitude = 50.9025;longitude = -1.404167;xlabel = "Southampton";pos = "65,11!";];
+    southend_on_sea [year = 2022;latitude = 51.55;longitude = 0.71;xlabel = "Southend-on-Sea";pos = "89,22!";];
+    st_albans [year = 1877;latitude = 51.783333;longitude = -0.333333;xlabel = "St Albans";pos = "77,26!";];
+    stoke_on_trent [year = 1925;latitude = 53;longitude = -2.183333;xlabel = "Stoke-on-Trent";pos = "57,49!";];
+    sunderland [year = 1992;latitude = 54.91;longitude = -1.385;xlabel = "Sunderland";pos = "66,85!";];
+    truro [year = 1877;latitude = 50.26;longitude = -5.051;xlabel = "Truro";pos = "25,0!";];
+    wakefield [year = 1888;latitude = 53.683;longitude = -1.499;xlabel = "Wakefield";pos = "64,61!";];
+    wells [year = 0;latitude = 51.209444;longitude = -2.645;xlabel = "Wells";pos = "52,16!";];
+    westminster [year = 1540;latitude = 51.512222;longitude = -0.163333;xlabel = "Westminster";pos = "79,22!";];
+    winchester [year = 0;latitude = 51.062;longitude = -1.317;xlabel = "Winchester";pos = "66,14!";];
+    wolverhampton [year = 2001;latitude = 52.583333;longitude = -2.133333;xlabel = "Wolverhampton";pos = "57,41!";];
+    worcester [year = 0;latitude = 52.192;longitude = -2.22;xlabel = "Worcester";pos = "56,34!";];
+    york [year = 0;latitude = 53.958333;longitude = -1.080278;xlabel = "York";pos = "69,66!";];
+  }
 }
