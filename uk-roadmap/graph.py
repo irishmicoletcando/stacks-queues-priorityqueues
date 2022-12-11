@@ -81,3 +81,4 @@ def connected(graph, source, destination):
     return shortest_path(graph, source, destination) is not None
 
 def depth_first_traverse(graph, source, order_by=None):
+  stack = Stack(source)
