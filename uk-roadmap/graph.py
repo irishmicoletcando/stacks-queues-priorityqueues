@@ -115,3 +115,5 @@ def search(traverse, graph, source, predicate, order_by=None):
     for node in traverse(graph, source, order_by):
         if predicate(node):
             return node
+
+def dijkstra_shortest_path(graph, source, destination, weight_factory):
