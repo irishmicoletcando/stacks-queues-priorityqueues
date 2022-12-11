@@ -82,3 +82,4 @@ def connected(graph, source, destination):
 
 def depth_first_traverse(graph, source, order_by=None):
   stack = Stack(source)
+  visited = set()
