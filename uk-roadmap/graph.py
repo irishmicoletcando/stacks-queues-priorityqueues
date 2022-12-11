@@ -117,3 +117,5 @@ def search(traverse, graph, source, predicate, order_by=None):
             return node
 
 def dijkstra_shortest_path(graph, source, destination, weight_factory):
+    previous = {}
+    visited = set()
