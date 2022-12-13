@@ -32,7 +32,7 @@ def load_graph(filename, node_factory):
       for name1, name2, weights in graph.edges(data=True)
   )
 
-def breadth_first_traverse(graph, source):
+def breadth_first_traverse(graph, source, order_by=None):
     queue = Queue(source)
     visited = {source}
     while queue:
