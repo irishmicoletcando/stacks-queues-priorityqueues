@@ -5,3 +5,6 @@ nodes, graph = load_graph("roadmap.dot", City.from_dict)
 
 city1 = nodes["london"]
 city2 = nodes["edinburgh"]
+
+def distance(weights):
+  return float(weights["distance"])
