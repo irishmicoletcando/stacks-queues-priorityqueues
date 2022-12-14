@@ -8,3 +8,6 @@ city2 = nodes["edinburgh"]
 
 def distance(weights):
   return float(weights["distance"])
+
+for city in dijkstra_shortest_path(graph, city1, city2, distance):
+  print(city.name)
