@@ -11,3 +11,8 @@ def by_latitude(city):
 
 
 print(" → ".join(city.name for city in shortest_path(graph, city1, city2)))
+
+print(" → ".join(
+  city.name
+  for city in shortest_path(graph, city1, city2, by_latitude)
+))
